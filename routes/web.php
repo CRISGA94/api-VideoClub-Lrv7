@@ -37,3 +37,5 @@ Route::get('/MostrarIdioma/{idioma}', 'ApiController@MostrarIdioma');
 Route::get('/MostrarCap/{nombre}', 'ApiController@MostrarTempoCap');
 Route::get('/Mostrarestreno', 'ApiController@MostrarEstreno');
 Route::get('/MostrarSeriesIdioma/{idioma}', 'ApiController@MostrarSeriesIdioma');
+Route::get('/RentaContenido/{id_c}/{id_con}/{numero_tarjeta}/{fecha_exp}/{codigo_seg}', 'ApiController@rentaContenido');
+Route::get('/ContenidoRentado/{id}', 'ApiController@contenidoRentado');
