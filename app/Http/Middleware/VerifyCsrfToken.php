@@ -30,6 +30,11 @@ class VerifyCsrfToken extends Middleware
         '/MostrarIdioma/*',
         '/MostrarCap/*',
         '/Mostrarestreno',
-        '/MostrarSeriesIdioma/{idioma}'
+        '/MostrarSeriesIdioma/{idioma}',
+        '/ListarClientes', 
+        '/MostrarClienteId/*', 
+        '/EliminarCliente/*',
+        '/RentaContenido/*/*', 
+        '/ContenidoRentado/*'
     ];
 }
