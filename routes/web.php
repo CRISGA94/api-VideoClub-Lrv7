@@ -37,3 +37,7 @@ Route::get('/MostrarIdioma/{idioma}', 'ApiController@MostrarIdioma');
 Route::get('/MostrarCap/{nombre}', 'ApiController@MostrarTempoCap');
 Route::get('/Mostrarestreno', 'ApiController@MostrarEstreno');
 Route::get('/MostrarSeriesIdioma/{idioma}', 'ApiController@MostrarSeriesIdioma');
+Route::get('/ListarClientes/{idioma}', 'ApiController@listarClientes');
+Route::get('/MostrarCliente/{id}', 'ApiController@mostrarCliente');
+Route::get('/EditarCliente/{id}', 'ApiController@editarCliente');
+Route::get('/EliminarCliente/{id}', 'ApiController@eliminarCliente');
